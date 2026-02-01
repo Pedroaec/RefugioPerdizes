@@ -90,7 +90,7 @@ const Header = () => {
             className="header-cta-new"
           >
             <Phone size={16} />
-            <span>Falar com Corretor</span>
+            <span>Entrar em Contato</span>
           </button>
         </div>
 
@@ -123,7 +123,7 @@ const Header = () => {
             onClick={() => scrollToSection('contact-section')}
             className="mobile-cta"
           >
-            Falar com Corretor
+            Entrar em Contato
           </button>
         </div>
       </div>

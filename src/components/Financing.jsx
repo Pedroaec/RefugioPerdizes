@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ExternalLink, Calculator, Percent, Clock, Smartphone, ArrowRightLeft, TrendingDown } from 'lucide-react';
+import { ExternalLink, Calculator, Percent, Clock, Smartphone, ArrowRightLeft } from 'lucide-react';
 import { financingLinks, propertyInfo } from '../data/roomPhotos';
 
 const Financing = () => {
@@ -127,10 +127,6 @@ const Financing = () => {
           </div>
         </div>
 
-        <p className="simulator-note">
-          <TrendingDown size={14} />
-          No sistema SAC, as parcelas diminuem ao longo do tempo.
-        </p>
       </div>
 
       {/* Banks Grid */}
