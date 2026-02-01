@@ -44,20 +44,20 @@ const Neighborhood = () => {
     },
   ];
 
-  // Imagens reais de pontos de interesse em Perdizes
+  // Imagens de pontos de interesse em Perdizes
   const neighborhoodImages = [
     {
-      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Allianz_Parque_Aerial.jpg/1200px-Allianz_Parque_Aerial.jpg',
+      url: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=400&fit=crop',
       alt: 'Allianz Parque - Arena multiuso',
       caption: 'Allianz Parque'
     },
     {
-      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/SESC_Pompeia.jpg/1200px-SESC_Pompeia.jpg',
+      url: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&h=400&fit=crop',
       alt: 'SESC Pompeia - Centro cultural',
       caption: 'SESC Pompeia'
     },
     {
-      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/PUC-SP_-_Campus_Monte_Alegre.jpg/1200px-PUC-SP_-_Campus_Monte_Alegre.jpg',
+      url: 'https://images.unsplash.com/photo-1562774053-701939374585?w=600&h=400&fit=crop',
       alt: 'PUC-SP - Universidade',
       caption: 'PUC-SP'
     },

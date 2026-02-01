@@ -8,7 +8,7 @@ import Neighborhood from './components/Neighborhood';
 import Location from './components/Location';
 import Financing from './components/Financing';
 import Contact from './components/Contact';
-import WhatsAppButton from './components/WhatsAppButton';
+// import WhatsAppButton from './components/WhatsAppButton';
 import './App.css';
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
         <PhotoGallery roomId={selectedRoom} onClose={handleCloseGallery} />
       )}
 
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
     </div>
   );
 }
