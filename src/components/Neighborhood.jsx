@@ -44,22 +44,22 @@ const Neighborhood = () => {
     },
   ];
 
-  // URLs de imagens públicas do bairro de Perdizes (Unsplash/Pexels)
+  // Imagens reais de pontos de interesse em Perdizes
   const neighborhoodImages = [
     {
-      url: 'https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=600&h=400&fit=crop',
-      alt: 'Ruas arborizadas de São Paulo',
-      caption: 'Ruas arborizadas'
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Allianz_Parque_Aerial.jpg/1200px-Allianz_Parque_Aerial.jpg',
+      alt: 'Allianz Parque - Arena multiuso',
+      caption: 'Allianz Parque'
     },
     {
-      url: 'https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=600&h=400&fit=crop',
-      alt: 'Arquitetura residencial',
-      caption: 'Área residencial'
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/SESC_Pompeia.jpg/1200px-SESC_Pompeia.jpg',
+      alt: 'SESC Pompeia - Centro cultural',
+      caption: 'SESC Pompeia'
     },
     {
-      url: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop',
-      alt: 'Cafés e restaurantes',
-      caption: 'Gastronomia local'
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/PUC-SP_-_Campus_Monte_Alegre.jpg/1200px-PUC-SP_-_Campus_Monte_Alegre.jpg',
+      alt: 'PUC-SP - Universidade',
+      caption: 'PUC-SP'
     },
   ];
 
