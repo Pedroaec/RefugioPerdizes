@@ -47,17 +47,17 @@ const Neighborhood = () => {
   // Imagens de pontos de interesse em Perdizes
   const neighborhoodImages = [
     {
-      url: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=600&h=400&fit=crop',
+      url: '/fotos/allianz-parque.jpg',
       alt: 'Allianz Parque - Arena multiuso',
       caption: 'Allianz Parque'
     },
     {
-      url: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&h=400&fit=crop',
+      url: '/fotos/sesc-pompeia.jpg',
       alt: 'SESC Pompeia - Centro cultural',
       caption: 'SESC Pompeia'
     },
     {
-      url: 'https://images.unsplash.com/photo-1562774053-701939374585?w=600&h=400&fit=crop',
+      url: '/fotos/puc-sp.jpg',
       alt: 'PUC-SP - Universidade',
       caption: 'PUC-SP'
     },
