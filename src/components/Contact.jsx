@@ -31,6 +31,13 @@ const Contact = () => {
 
       if (!response.ok) throw new Error('Erro no envio');
 
+      if (typeof fbq === 'function') {
+        fbq('track', 'Lead', {
+          content_name: 'Refúgio Perdizes',
+          content_category: 'Formulário de Contato',
+        });
+      }
+
       setIsSubmitted(true);
       setFormData({
         name: '',
